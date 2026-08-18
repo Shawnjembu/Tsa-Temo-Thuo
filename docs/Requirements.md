@@ -1,7 +1,7 @@
 # Functional Requirements — Tsa Temo Thuo
 
 **Team 10** · CSI473 Semester 1, 2026/27 · Lab 3, 14 August 2026
-**Traces to:** Project Problem Proposal (approved), Team 4, 7 August 2026
+**Traces to:** Project Problem Proposal (approved), Team 10, 7 August 2026
 
 Each requirement states what the system must do and is independently verifiable.
 Behaviour outside the approved scope (payments, warehousing, AI recommendations,
