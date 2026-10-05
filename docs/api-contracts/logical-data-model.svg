@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 760" font-family="Verdana, Arial, sans-serif" font-size="12">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="triangle" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M0,0 L12,6 L0,12 z" fill="white" stroke="#333" stroke-width="1"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1150" height="760" fill="#ffffff"/>
+  <text x="575" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#5c1a2b">Tsa Temo Thuo — logical data model (entity relationships and cardinalities)</text>
+
+  <!-- Account abstract -->
+  <rect x="465" y="45" width="220" height="55" fill="#f5eef0" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="575" y="67" text-anchor="middle" font-weight="bold">&lt;&lt;abstract&gt;&gt; Account</text>
+  <text x="575" y="84" text-anchor="middle" font-size="10">PK accountId</text>
+
+  <!-- Administrator -->
+  <rect x="860" y="45" width="180" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="950" y="67" text-anchor="middle" font-weight="bold">Administrator</text>
+  <text x="950" y="84" text-anchor="middle" font-size="10">PK adminId</text>
+
+  <!-- Transporter -->
+  <rect x="55" y="45" width="180" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="145" y="67" text-anchor="middle" font-weight="bold">Transporter</text>
+  <text x="145" y="84" text-anchor="middle" font-size="10">PK transporterId (standalone)</text>
+
+  <!-- Farmer / Buyer -->
+  <rect x="380" y="150" width="150" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="455" y="172" text-anchor="middle" font-weight="bold">Farmer</text>
+  <text x="455" y="189" text-anchor="middle" font-size="10">PK/FK accountId</text>
+
+  <rect x="610" y="150" width="150" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="685" y="172" text-anchor="middle" font-weight="bold">Buyer</text>
+  <text x="685" y="189" text-anchor="middle" font-size="10">PK/FK accountId</text>
+
+  <!-- OrderActivityReport -->
+  <rect x="875" y="150" width="210" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="980" y="172" text-anchor="middle" font-weight="bold">OrderActivityReport</text>
+  <text x="980" y="189" text-anchor="middle" font-size="10">PK reportId; FK generatedByAdminId</text>
+
+  <!-- Listing -->
+  <rect x="310" y="260" width="190" height="65" fill="#fdf6e3" stroke="#8a6d1a" stroke-width="1.5" rx="4"/>
+  <text x="405" y="280" text-anchor="middle" font-weight="bold">Listing</text>
+  <text x="405" y="296" text-anchor="middle" font-size="10">PK listingId; FK farmerId</text>
+  <text x="405" y="310" text-anchor="middle" font-size="10">total/reserved/confirmedQuantity</text>
+
+  <!-- Order -->
+  <rect x="560" y="265" width="190" height="80" fill="#fdf6e3" stroke="#8a6d1a" stroke-width="1.5" rx="4"/>
+  <text x="655" y="286" text-anchor="middle" font-weight="bold">Order</text>
+  <text x="655" y="302" text-anchor="middle" font-size="10">PK orderId; FK listingId, buyerId</text>
+  <text x="655" y="317" text-anchor="middle" font-size="10">UNIQUE idempotencyToken</text>
+  <text x="655" y="332" text-anchor="middle" font-size="10">(see docs/data-integrity.md)</text>
+
+  <!-- TransportJob -->
+  <rect x="820" y="265" width="200" height="65" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="920" y="286" text-anchor="middle" font-weight="bold">TransportJob</text>
+  <text x="920" y="302" text-anchor="middle" font-size="10">PK jobId; FK orderId (UNIQUE),</text>
+  <text x="920" y="316" text-anchor="middle" font-size="10">transporterId</text>
+
+  <!-- OrderStatusEvent -->
+  <rect x="560" y="400" width="200" height="55" fill="#ffffff" stroke="#5c1a2b" stroke-width="1.5" rx="4"/>
+  <text x="660" y="422" text-anchor="middle" font-weight="bold">OrderStatusEvent</text>
+  <text x="660" y="438" text-anchor="middle" font-size="10">PK eventId; FK orderId · append-only</text>
+
+  <!-- Inheritance (is-a) -->
+  <line x1="455" y1="150" x2="520" y2="102" stroke="#333" stroke-width="1.3" marker-end="url(#triangle)"/>
+  <line x1="685" y1="150" x2="620" y2="102" stroke="#333" stroke-width="1.3" marker-end="url(#triangle)"/>
+  <text x="330" y="130" font-size="10" font-style="italic">is-a</text>
+  <text x="780" y="130" font-size="10" font-style="italic">is-a</text>
+
+  <!-- Administrator relationships -->
+  <line x1="860" y1="75" x2="690" y2="75" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="730" y="70" font-size="10">verifies 1:0..*</text>
+  <line x1="880" y1="100" x2="500" y2="175" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="700" y="118" font-size="10">verifies 1:0..*</text>
+  <line x1="950" y1="100" x2="975" y2="148" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="975" y="130" text-anchor="middle" font-size="10">generates 1:0..*</text>
+
+  <!-- Farmer owns Listing -->
+  <line x1="440" y1="205" x2="415" y2="258" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="340" y="235" font-size="10">owns 1:0..*</text>
+
+  <!-- Buyer places Order -->
+  <line x1="680" y1="205" x2="665" y2="263" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="690" y="235" font-size="10">places 1:0..*</text>
+
+  <!-- Listing receives Order -->
+  <line x1="500" y1="300" x2="558" y2="300" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="505" y="295" font-size="10">receives 1:0..*</text>
+
+  <!-- Order requests TransportJob -->
+  <line x1="750" y1="300" x2="818" y2="298" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="755" y="293" font-size="10">requests 1:0..1</text>
+
+  <!-- Transporter accepts TransportJob -->
+  <path d="M145,100 C145,350 800,430 918,330" fill="none" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="300" y="420" font-size="10">accepts 1:0..*</text>
+
+  <!-- Order has OrderStatusEvent -->
+  <line x1="655" y1="345" x2="658" y2="398" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="663" y="375" font-size="10">has 1:0..*</text>
+
+  <!-- Legend -->
+  <rect x="55" y="480" width="1040" height="110" fill="none" stroke="#999" stroke-width="1"/>
+  <text x="70" y="500" font-size="11" font-weight="bold">Legend</text>
+  <line x1="70" y1="515" x2="105" y2="515" stroke="#333" stroke-width="1.3" marker-end="url(#triangle)"/>
+  <text x="113" y="519" font-size="10">inheritance (is-a) — Farmer and Buyer are subtypes of Account; Transporter and Administrator are not</text>
+  <line x1="70" y1="533" x2="105" y2="533" stroke="#333" stroke-width="1.3" marker-end="url(#arrow)"/>
+  <text x="113" y="537" font-size="10">association, labelled with name and cardinality (1:0.. or 1:0..1)</text>
+  <rect x="70" y="548" width="24" height="16" fill="#fdf6e3" stroke="#8a6d1a" stroke-width="1.3"/>
+  <text x="105" y="560" font-size="10">entity carrying a stock-integrity or idempotency constraint — see docs/data-integrity.md</text>
+  <text x="70" y="578" font-size="10" fill="#555">Note: this diagram shows keys and cardinalities only. Full attribute lists, types and column-level constraints are in models/logical-data-model.md.</text>
+</svg>
