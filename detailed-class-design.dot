@@ -1,0 +1,25 @@
+digraph UML {
+ graph [rankdir=TB, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.65, fontname="Helvetica", label="Tsa Temo Thuo — UC-01 detailed design (Lab 7 + Lab 8 aligned)", labelloc=t, fontsize=17];
+ node [shape=record, fontname="Helvetica", fontsize=10, style="rounded,filled", fillcolor="#eef4ff", color="#52709a", margin=0.13];
+ edge [fontname="Helvetica", fontsize=9, color="#526479", arrowsize=0.7];
+ controller [label="{HTTP Order Controller|+ POST /orders: 201 or stable error}", fillcolor="#f0f1f3"];
+ service [label="{PlaceOrderService|+ placeOrder(request, context): OrderRecord|replay / verified buyer / transaction}", fillcolor="#dbeafe"];
+ authorization [label="{«interface» BuyerAuthorization|+ requireVerifiedBuyer(buyerId)}", fillcolor="#dcfce7"];
+ uow [label="{«interface» UnitOfWork|+ execute(work): Result}", fillcolor="#dcfce7"];
+ tx [label="{«interface» PlaceOrderTransaction|+ listing: ListingRepository|+ orders: OrderRepository|+ history: OrderStatusEventRepository}", fillcolor="#dcfce7"];
+ stocks [label="{«interface» ListingRepository|+ tryReserve(listingId, quantity): ReservationOutcome}", fillcolor="#dcfce7"];
+ orders [label="{«interface» OrderRepository|+ findByIdempotencyToken(token): Order?|+ save(order)  [UNIQUE token]}", fillcolor="#dcfce7"];
+ history [label="{«interface» OrderStatusEventRepository|+ append(event)}", fillcolor="#dcfce7"];
+ adapter [label="{SQL adapters / relational transaction|row lock or guarded update|Order.idempotencyToken UNIQUE|single commit or rollback}", fillcolor="#fef3c7"];
+ notification [label="{«interface» SmsGatewayStub|+ notifyOrderPlaced(orderId)}", fillcolor="#dcfce7"];
+ routing [label="{«interface» RoutingStub|+ lookupRoute(orderId)}", fillcolor="#dcfce7"];
+ controller -> service [label="calls"];
+ service -> authorization [style=dashed,label="uses"];
+ service -> uow [style=dashed,label="uses"];
+ service -> notification [style=dashed,label="after commit"];
+ service -> routing [style=dashed,label="after commit"];
+ uow -> tx [style=dashed,label="provides transaction-scoped ports"];
+ tx -> stocks [style=dashed]; tx -> orders [style=dashed]; tx -> history [style=dashed];
+ adapter -> uow [arrowhead=empty, label="implements"];
+ adapter -> stocks [arrowhead=empty]; adapter -> orders [arrowhead=empty]; adapter -> history [arrowhead=empty];
+}
