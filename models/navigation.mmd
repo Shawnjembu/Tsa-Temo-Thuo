@@ -1,0 +1,15 @@
+%% Editable source for models/navigation.svg (Mermaid). Arrows = permitted navigation routes, not business state transitions.
+flowchart LR
+  subgraph BUYER
+    B1[Browse produce] --> B2[Order form]
+    B2 <-->|back preserves values| B3[Review - not yet sent]
+    B3 --> B4[Order outcome: reference + status]
+    B4 --> B5[Order status]
+    B6[My orders] <-->|open item / return to list| B5
+    B6 -->|start new| B1
+  end
+  subgraph FARMER[FARMER - separate permission context]
+    F1[Incoming orders - own listings only] <-->|open / return| F2[Order detail: accept / decline]
+    F2 --> F3[Decision outcome: new status shown]
+    F3 --> F1
+  end

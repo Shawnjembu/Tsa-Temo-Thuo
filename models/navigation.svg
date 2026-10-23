@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" height="430" role="img" aria-label="Navigation model for buyer and farmer"><title>Navigation model for buyer and farmer</title><defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#222"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><text x="20" y="28" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">Navigation model - buyer and farmer perspectives (arrows = permitted routes; not a state machine)</text>
+<text x="20" y="62" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">BUYER</text>
+<rect x="20" y="75" width="150" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="95.0" y="99" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Browse produce</text>
+<text x="95.0" y="119" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">find a listing</text>
+<rect x="220" y="75" width="150" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="295.0" y="99" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Order form</text>
+<text x="295.0" y="119" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">item, qty, place</text>
+<rect x="420" y="75" width="150" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="495.0" y="99" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Review</text>
+<text x="495.0" y="119" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">check before send</text>
+<rect x="620" y="75" width="170" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="705.0" y="99" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Order outcome</text>
+<text x="705.0" y="119" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">ref + status</text>
+<rect x="820" y="75" width="150" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="895.0" y="99" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Order status</text>
+<text x="895.0" y="119" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">tracking</text>
+<rect x="420" y="195" width="150" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="495.0" y="219" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">My orders</text>
+<text x="495.0" y="239" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">list, return route</text>
+<line x1="170" y1="105" x2="220" y2="105" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="370" y1="105" x2="420" y2="105" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="570" y1="105" x2="620" y2="105" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="790" y1="105" x2="820" y2="105" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="420" y1="105" x2="370" y2="105" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="395" y="97" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#111">back</text>
+<line x1="895" y1="135" x2="570" y2="225" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="570" y1="235" x2="845" y2="135" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="780" y="215" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#111">open item / return to list</text>
+<line x1="420" y1="225" x2="95" y2="135" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="210" y="190" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#111">start new</text>
+<text x="20" y="305" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">FARMER (separate permission context)</text>
+<rect x="20" y="320" width="170" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="105.0" y="344" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Incoming orders</text>
+<text x="105.0" y="364" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">own listings only</text>
+<rect x="260" y="320" width="170" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="345.0" y="344" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Order detail</text>
+<text x="345.0" y="364" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">accept / decline</text>
+<rect x="500" y="320" width="170" height="60" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="585.0" y="344" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Decision outcome</text>
+<text x="585.0" y="364" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#111">new status shown</text>
+<line x1="190" y1="350" x2="260" y2="350" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="260" y1="365" x2="190" y2="365" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="430" y1="350" x2="500" y2="350" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="500" y1="370" x2="430" y2="370" stroke="#222" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="20" y="415" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Shortest reasonable paths: Buyer 4 steps (form > review > place > outcome). Farmer 2 steps (list > detail > decide). Review kept deliberately.</text></svg>
