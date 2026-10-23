@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 790" width="1500" height="790" role="img" aria-label="Tsa Temo Thuo wireframes for buyer and farmer"><title>Tsa Temo Thuo wireframes for buyer and farmer</title><defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#222"/></marker></defs><rect width="100%" height="100%" fill="#fff"/><text x="20" y="28" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">Tsa Temo Thuo - Lab 10 low-fidelity wireframes (annotated). Synthetic data. Outlined boxes are controls, not working buttons.</text>
+<rect x="20" y="50" width="350" height="440" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="20" y="50" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="30" y="71" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">BUYER: Place order - quantity missing</text>
+<rect x="32" y="94" width="326" height="54" rx="3" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="42" y="116" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">There is 1 error</text>
+<text x="42" y="136" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Enter a quantity in kg (link to field)</text>
+<circle cx="338" cy="108" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="338" y="113" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">1</text>
+<text x="34" y="180" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Produce (required)</text>
+<rect x="32" y="188" width="326" height="30" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="42" y="208" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Tomatoes - from Farmer listing #12</text>
+<text x="34" y="246" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Quantity in kg (required)</text>
+<circle cx="338" cy="240" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="338" y="245" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">2</text>
+<rect x="32" y="254" width="326" height="30" rx="3" fill="#fff" stroke="#222" stroke-width="3"/>
+<text x="42" y="274" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111"></text>
+<text x="34" y="302" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Enter a quantity, for example 20.  [error text + icon, not colour only]</text>
+<text x="34" y="334" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Delivery place</text>
+<circle cx="338" cy="328" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="338" y="333" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">3</text>
+<rect x="32" y="342" width="326" height="30" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="42" y="362" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Gaborone, Block 8 (retained)</text>
+<rect x="32" y="402" width="140" height="34" rx="3" fill="#f4f4f4" stroke="#222" stroke-width="1.5"/>
+<text x="102" y="424" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Review order</text>
+<text x="34" y="458" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">1 focus moves to summary on failed submit</text>
+<text x="34" y="472" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">2 persistent label + text error  3 valid values kept</text>
+<rect x="390" y="50" width="350" height="440" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="390" y="50" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="71" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">BUYER: Review - NOT YET SENT</text>
+<text x="404" y="116" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Produce</text>
+<text x="404" y="134" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Tomatoes, farmer listing #12</text>
+<text x="404" y="164" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Quantity</text>
+<text x="404" y="182" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">20 kg</text>
+<text x="404" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Delivery place</text>
+<text x="404" y="230" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Gaborone, Block 8</text>
+<text x="404" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">This information will be shared with the selected farmer.</text>
+<text x="404" y="292" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#111">Nothing has been sent yet.</text>
+<rect x="402" y="402" width="120" height="34" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="462" y="424" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Back to edit</text>
+<rect x="536" y="402" width="120" height="34" rx="3" fill="#f4f4f4" stroke="#222" stroke-width="1.5"/>
+<text x="596" y="424" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Place order</text>
+<text x="404" y="458" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Back keeps all values.</text>
+<text x="404" y="472" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Place order shows progress, not success.</text>
+<rect x="760" y="50" width="350" height="440" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="760" y="50" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="770" y="71" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">BUYER: Outcome (3 evidence-based variants)</text>
+<rect x="772" y="94" width="326" height="110" rx="3" fill="#f9f9f9" stroke="#222" stroke-width="1.5"/>
+<text x="782" y="114" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#111">CONFIRMED</text>
+<text x="782" y="136" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#111">Order placed</text>
+<text x="782" y="154" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Reference: TTT-ORD-041 (synthetic)</text>
+<text x="782" y="174" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Placed = farmer notified. Not yet accepted</text>
+<text x="782" y="190" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">or delivered.   [View order]</text>
+<rect x="772" y="216" width="326" height="110" rx="3" fill="#f9f9f9" stroke="#222" stroke-width="1.5"/>
+<text x="782" y="236" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#111">UNCONFIRMED (reply lost / timeout)</text>
+<text x="782" y="258" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">We have not yet confirmed whether</text>
+<text x="782" y="276" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">your order was placed.</text>
+<text x="782" y="296" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Your details are kept.  [Check this order]</text>
+<text x="782" y="312" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Do not place it again until checked.</text>
+<rect x="772" y="338" width="326" height="100" rx="3" fill="#f9f9f9" stroke="#222" stroke-width="1.5"/>
+<text x="782" y="358" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#111">KNOWN UNSENT (offline, never transmitted)</text>
+<text x="782" y="380" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Saved on this phone, not yet sent.</text>
+<text x="782" y="400" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">It will send when you are online.</text>
+<text x="782" y="418" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">[Send now] [Discard draft]</text>
+<text x="774" y="458" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Only CONFIRMED may show a reference.</text>
+<text x="774" y="472" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Check route depends on an agreed contract.</text>
+<rect x="1130" y="50" width="350" height="440" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="1130" y="50" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="1140" y="71" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">FARMER: Incoming order detail</text>
+<text x="1144" y="116" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Reference: TTT-ORD-041</text>
+<text x="1144" y="138" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Status: Placed</text>
+<text x="1144" y="168" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Tomatoes - 20 kg</text>
+<text x="1144" y="188" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Deliver to: Gaborone, Block 8</text>
+<text x="1144" y="226" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#111">Reason (required if declining)</text>
+<circle cx="1448" cy="220" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1448" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">1</text>
+<rect x="1142" y="234" width="326" height="30" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="1142" y="290" width="150" height="34" rx="3" fill="#f4f4f4" stroke="#222" stroke-width="1.5"/>
+<text x="1217" y="312" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Accept order</text>
+<rect x="1306" y="290" width="150" height="34" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1381" y="312" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Decline order</text>
+<text x="1144" y="350" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Accepting notifies the buyer. It does not mean delivered.</text>
+<text x="1144" y="372" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">If order already changed: show current status, refuse stale action.</text>
+<text x="1144" y="394" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Shown only for the farmer's own listings (server-checked).</text>
+<circle cx="1448" cy="388" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1448" y="393" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">2</text>
+<text x="1144" y="458" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">1 label + reason kept after refusal</text>
+<text x="1144" y="472" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">2 permission enforced by the service</text>
+<rect x="20" y="520" width="350" height="230" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="20" y="520" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="30" y="541" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">BUYER: Unauthorised (open another's order)</text>
+<text x="40" y="586" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">You cannot view this order.</text>
+<text x="40" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">It belongs to a different account.</text>
+<text x="40" y="632" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">No order details are shown.</text>
+<rect x="40" y="660" width="170" height="32" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="125" y="681" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">Go to My orders</text>
+<text x="40" y="725" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Not shown as a connection problem. No Retry button.</text>
+<rect x="390" y="520" width="350" height="230" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="390" y="520" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="541" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">Lists: loading / empty / unavailable</text>
+<text x="410" y="582" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">LOADING: 'Loading your orders...' (never 'no orders' yet)</text>
+<text x="410" y="612" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#111">EMPTY (query succeeded, 0 results):</text>
+<text x="410" y="630" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">'You have no orders yet.' [Browse produce]</text>
+<text x="410" y="662" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#111">UNAVAILABLE (query failed):</text>
+<text x="410" y="680" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">'We could not load your orders.' [Try again]</text>
+<text x="410" y="710" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">STALE: 'Last updated 10:42' [Refresh] before accept/decline</text>
+<rect x="760" y="520" width="350" height="230" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="760" y="520" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="770" y="541" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">Responsive: 320 px wide, 200% text</text>
+<rect x="790" y="566" width="110" height="170" rx="3" fill="#f9f9f9" stroke="#222" stroke-width="1.5"/>
+<text x="845" y="586" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#111">Single column</text>
+<rect x="800" y="596" width="90" height="18" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="800" y="622" width="90" height="18" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="800" y="648" width="90" height="40" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="800" y="696" width="90" height="22" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="920" y="590" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Labels above inputs, never beside</text>
+<text x="920" y="612" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">No horizontal scroll at 320 px</text>
+<text x="920" y="634" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Actions full width, 44 px tall</text>
+<text x="920" y="656" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">Text can enlarge 200% without</text>
+<text x="920" y="672" font-family="Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#111">clipping labels or messages</text>
+<rect x="1130" y="520" width="350" height="230" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="1130" y="520" width="350" height="32" rx="3" fill="#eee" stroke="#222" stroke-width="1.5"/>
+<text x="1140" y="541" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start" fill="#111">Reading / keyboard order (buyer form)</text>
+<circle cx="1155" cy="586" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1155" y="591" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">1</text>
+<text x="1175" y="591" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Error summary (focus lands here)</text>
+<circle cx="1155" cy="616" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1155" y="621" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">2</text>
+<text x="1175" y="621" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Produce</text>
+<circle cx="1155" cy="646" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1155" y="651" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">3</text>
+<text x="1175" y="651" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Quantity (summary link jumps here)</text>
+<circle cx="1155" cy="676" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1155" y="681" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">4</text>
+<text x="1175" y="681" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Delivery place</text>
+<circle cx="1155" cy="706" r="11" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<text x="1155" y="711" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#111">5</text>
+<text x="1175" y="711" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111">Review order</text>
+<text x="1150" y="740" font-family="Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#111">Shift+Tab reverses. Visible focus outline on all.</text>
+<text x="20" y="775" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#111">Evidence status: design intention only. Focus, announcements and keyboard behaviour are NOT TESTED until implemented.</text></svg>
